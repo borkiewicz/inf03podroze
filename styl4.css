@@ -1,0 +1,77 @@
+*{
+    font-family: Tahoma;
+   
+}
+.baner,.stopka{
+    background-color: rgb(107, 142, 35);
+    color: white;
+    padding: 3px; 
+    
+}
+.baner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    
+}
+.dane{
+    background-color: rgb(255, 218, 185);
+    padding:3px;  
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center; 
+    
+}
+h3::first-letter {
+    color: green; /* Zmiana koloru pierwszej litery na czerwony */
+}
+h3{
+    text-align: center;
+}
+.prawy,.lewy{
+    background-color: rgb(255, 239, 213);
+    width: 27%;
+    height: 550px;
+    float: left;
+    
+    
+}
+.lewy{
+    float:left;
+}
+.prawy{
+    flex: 1;
+    
+}
+.srodkowy{
+    background-color: rgb(255, 239, 213);
+    width: 46%;
+    height: 550px;
+    float: left;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 7px; 
+    display: flex;
+  
+}
+.image{
+    height: 90px;
+    padding: 3px;  
+    display: flex; /* Użyj flexbox w obrębie wiersza */
+    padding-top: 7px;  
+}
+.row{
+    flex-direction: column; /* Ustawianie elementów w kolumnie */
+    align-items: center; /* Wycentrowanie elementów w osi poziomej */
+    text-align: center;
+}
+.stopka{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
